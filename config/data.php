@@ -55,7 +55,7 @@ $categories = [
         'description' => 'Ordinateurs, laptops, accessoires informatiques et bien plus...',
         'url' => 'informatique.php',
     ],
-    'petit_electromenager' => [
+    'petit-electromenager' => [
         'id' => 'petit_electromenager',
         'name' => 'Petit Électroménager',
         'slug' => 'petit-electromenager',
@@ -63,7 +63,7 @@ $categories = [
         'description' => 'Cafetières, grille-pain, mixeurs, robots culinaires...',
         'url' => 'petit-electromenager.php',
     ],
-    'grand_electromenager' => [
+    'grand-electromenager' => [
         'id' => 'grand_electromenager',
         'name' => 'Grand Électroménager',
         'slug' => 'grand-electromenager',
@@ -236,7 +236,7 @@ $products['informatique'] = [
 $products['petit-electromenager'] = [
     [
         'id' => 21,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Cafetière Programmable',
         'price' => 79.99,
         'description' => '12 tasses, Minuteur programmable',
@@ -253,7 +253,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 22,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Grille-pain Premium',
         'price' => 49.99,
         'description' => '4 fentes, 7 niveaux de cuisson',
@@ -270,7 +270,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 23,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Blender Haute Vitesse',
         'price' => 129.99,
         'description' => '2000W, 8 vitesses, Bol sans BPA',
@@ -287,7 +287,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 24,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Bouilloire Électrique Sans Fil',
         'price' => 34.99,
         'description' => 'Arrêt automatique, 1.7L',
@@ -304,7 +304,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 25,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Robot Culinaire Multifonction',
         'price' => 189.99,
         'description' => '15 accessoires, 1200W',
@@ -321,7 +321,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 26,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Micro-ondes Numérique',
         'price' => 99.99,
         'description' => '800W, 20L, Mode grill',
@@ -338,7 +338,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 27,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Fer à Repasser Vapeur',
         'price' => 59.99,
         'description' => '2400W, Semelle en céramique',
@@ -355,7 +355,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 28,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Appareil à Raclette Électrique',
         'price' => 44.99,
         'description' => '4 portions, Non-adhésif',
@@ -372,7 +372,7 @@ $products['petit-electromenager'] = [
     ],
     [
         'id' => 29,
-        'category' => 'petit_electromenager',
+        'category' => 'petit-electromenager',
         'name' => 'Aspirateur Sans Fil Cyclonique',
         'price' => 299.99,
         'description' => '60 min autonomie, Programmable',
@@ -392,10 +392,10 @@ $products['petit-electromenager'] = [
 // ============================================
 // 5. PRODUITS - GRAND ÉLECTROMÉNAGER
 // ============================================
-$products['grand_electromenager'] = [
+$products['grand-electromenager'] = [
     [
         'id' => 41,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Réfrigérateur Connecté',
         'price' => 1499.99,
         'description' => 'French Door, 620L, WiFi intégré',
@@ -413,7 +413,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 42,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Lave-linge Haut de Gamme',
         'price' => 899.99,
         'description' => '9kg, A+++, 1400 tours/min',
@@ -430,7 +430,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 43,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Lave-vaisselle Encastrable',
         'price' => 599.99,
         'description' => '14 couverts, A+++, 42dB',
@@ -447,7 +447,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 44,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Cuisinière Multi-fonction',
         'price' => 749.99,
         'description' => 'Induction, Convection, Vapeur',
@@ -463,7 +463,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 45,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Four Électrique Premium',
         'price' => 599.99,
         'description' => '80L, Nettoyage automatique',
@@ -480,7 +480,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 46,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Congélateur Vertical',
         'price' => 449.99,
         'description' => '260L, A+, Décongélation rapide',
@@ -496,7 +496,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 47,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Climatiseur Réversible',
         'price' => 1299.99,
         'description' => '3000W, Chauffage + Refroidissement',
@@ -513,7 +513,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 48,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Sèche-linge Condensation',
         'price' => 649.99,
         'description' => '8kg, A++, Capteur humidité',
@@ -529,7 +529,7 @@ $products['grand_electromenager'] = [
     ],
     [
         'id' => 49,
-        'category' => 'grand_electromenager',
+        'category' => 'grand-electromenager',
         'name' => 'Radiateur Électrique Connecté',
         'price' => 399.99,
         'description' => '2000W, WiFi, Thermostat',
@@ -562,13 +562,13 @@ $pages = [
         'url' => 'informatique.php',
         'description' => 'Catégorie Informatique',
     ],
-    'petit_electromenager' => [
+    'petit-electromenager' => [
         'id' => 'petit_electromenager',
         'title' => 'Petit Électroménager - MegaShop',
         'url' => 'pages/petit-electromenager.php',
         'description' => 'Catégorie Petit Électroménager',
     ],
-    'grand_electromenager' => [
+    'grand-electromenager' => [
         'id' => 'grand_electromenager',
         'title' => 'Grand Électroménager - MegaShop',
         'url' => 'pages/grand-electromenager.php',
@@ -589,7 +589,7 @@ $pages = [
     'contact' => [
         'id' => 'contact',
         'title' => 'Contact - MegaShop',
-        'url' => 'pages/contact.php',
+        'url' => 'contact.blade.php',
         'description' => 'Page de contact',
     ],
 ];
@@ -597,31 +597,209 @@ $pages = [
 // ============================================
 // 7. CONDITIONS GÉNÉRALES DE VENTE
 // ============================================
-$cgv = [
+$cgv = 
+[
     [
         'id' => 1,
         'title' => 'Dispositions Générales',
-        'content' => 'Les présentes Conditions Générales de Vente régissent les relations commerciales entre MegaShop et ses clients.',
+        'section' => [
+            [
+                'subtitle' => null,
+                'content' => "Les présentes Conditions Générales de Vente régissent les relations commerciales entre MegaShop (ci-après « le vendeur ») et ses clients (ci-après « l'acheteur »). Tout achat implique l'acceptation inconditionnelle de ces conditions."
+            ],
+            [
+                'subtitle' => null,
+                'content' => "MegaShop est une entreprise proposant la vente de produits électroniques et électroménagers par voie électronique. L'accès au site marchand implique l'acceptation des conditions qui y figurent."
+            ]
+        ]
     ],
+
     [
         'id' => 2,
         'title' => 'Offres de Produits',
-        'content' => 'Les produits présentés sur le site sont offerts à titre informatif. Les prix affichés sont valables au moment de leur publication et peuvent être modifiés sans préavis.',
+        'section' => [
+            [
+                'subtitle' => 'Validité des Offres',
+                'content' => "Les produits présentés sur le site sont offerts à titre informatif. Les prix affichés sont valables au moment de leur publication et peuvent être modifiés sans préavis. Les offres sont valables sous réserve de disponibilité en stock."
+            ],
+            [
+                'subtitle' => 'Description des Produits',
+                'content' => "Les descriptions, photographies et caractéristiques des produits présentés sur le site sont aussi précises que possible. Cependant, MegaShop ne peut garantir l'absence d'erreur ou d'omission."
+            ]
+        ]
     ],
+
     [
         'id' => 3,
         'title' => 'Commandes et Confirmation',
-        'content' => 'La commande en ligne constitue une offre d\'achat. La confirmation de commande n\'est effective que lorsque MegaShop a confirmé par écrit l\'acceptation de la commande.',
+        'section' => [
+            [
+                'subtitle' => 'Processus de Commande',
+                'content' => "La commande en ligne constitue une offre d'achat. La confirmation de commande n'est effective que lorsque MegaShop a confirmé par écrit (email) l'acceptation de la commande et le paiement a été reçu."
+            ],
+            [
+                'subtitle' => 'Droit de Rétractation',
+                'content' => "Conformément à la loi, vous disposez d'un délai de 30 jours à compter de la réception de votre commande pour exercer votre droit de rétractation sans motif et sans pénalité."
+            ],
+            [
+                'subtitle' => 'Conditions de Retour',
+                'content' => [
+                    "Le produit doit être retourné dans son emballage d'origine, en parfait état",
+                    "Les frais de retour sont à la charge de l'acheteur sauf si le retour est dû à un défaut",
+                    "Le remboursement sera effectué sous 14 jours suivant la réception du produit"
+                ]
+            ]
+        ]
     ],
+
     [
         'id' => 4,
         'title' => 'Conditions de Règlement',
-        'content' => 'MegaShop accepte les cartes bancaires, virements, PayPal et paiement en 3/4 fois.',
+        'section' => [
+            [
+                'subtitle' => 'Modes de Paiement',
+                'content' => [
+                    "Carte bancaire (Visa, MasterCard, American Express)",
+                    "Virement bancaire",
+                    "PayPal",
+                    "Paiement en 3 ou 4 fois sans frais"
+                ]
+            ],
+            [
+                'subtitle' => 'Sécurité des Paiements',
+                'content' => "Tous les paiements en ligne sont sécurisés via HTTPS et 3D Secure."
+            ],
+            [
+                'subtitle' => 'Facture',
+                'content' => "Une facture numérique est envoyée après paiement."
+            ]
+        ]
     ],
+
     [
         'id' => 5,
         'title' => 'Conditions de Livraison',
-        'content' => 'Livraison gratuite à partir de 50€. Délais : 5-7 jours standard, 2-3 jours express.',
+        'section' => [
+            [
+                'subtitle' => 'Zones de Livraison',
+                'content' => "Livraison en France et Belgique."
+            ],
+            [
+                'subtitle' => 'Délais de Livraison',
+                'content' => [
+                    "Standard : 5 à 7 jours",
+                    "Express : 2 à 3 jours",
+                    "Retrait magasin : immédiat"
+                ]
+            ],
+            [
+                'subtitle' => 'Frais de Livraison',
+                'content' => "Gratuite à partir de 50€, sinon 5.99€."
+            ],
+            [
+                'subtitle' => 'Responsabilité',
+                'content' => "MegaShop n'est pas responsable des retards externes."
+            ]
+        ]
+    ],
+
+    [
+        'id' => 6,
+        'title' => 'Garantie et Service Après-Vente',
+        'section' => [
+            [
+                'subtitle' => 'Garantie Légale',
+                'content' => "Garantie de 2 ans."
+            ],
+            [
+                'subtitle' => 'Service Technique',
+                'content' => "Support via email et téléphone."
+            ],
+            [
+                'subtitle' => 'Exclusions',
+                'content' => [
+                    "Mauvaise utilisation",
+                    "Usure normale",
+                    "Dommages physiques",
+                    "Réparations non autorisées"
+                ]
+            ]
+        ]
+    ],
+
+    [
+        'id' => 7,
+        'title' => 'Responsabilité',
+        'section' => [
+            [
+                'subtitle' => 'Limitation',
+                'content' => "Responsabilité limitée au montant de la commande."
+            ],
+            [
+                'subtitle' => 'Disponibilité',
+                'content' => "Site disponible 24h/24 sauf maintenance."
+            ]
+        ]
+    ],
+
+    [
+        'id' => 8,
+        'title' => 'Propriété Intellectuelle',
+        'section' => [
+            [
+                'subtitle' => null,
+                'content' => "Tous les contenus sont protégés."
+            ]
+        ]
+    ],
+
+    [
+        'id' => 9,
+        'title' => 'Protection des Données',
+        'section' => [
+            [
+                'subtitle' => null,
+                'content' => "Les données sont protégées selon le RGPD."
+            ]
+        ]
+    ],
+
+    [
+        'id' => 10,
+        'title' => 'Modification des CGV',
+        'section' => [
+            [
+                'subtitle' => null,
+                'content' => "MegaShop peut modifier les CGV à tout moment."
+            ]
+        ]
+    ],
+
+    [
+        'id' => 11,
+        'title' => 'Loi Applicable',
+        'section' => [
+            [
+                'subtitle' => null,
+                'content' => "Soumis à la loi française."
+            ]
+        ]
+    ],
+
+    [
+        'id' => 12,
+        'title' => 'Contact',
+        'section' => [
+            [
+                'subtitle' => null,
+                'content' => [
+                    "Siège : 123 Avenue du Commerce, Paris",
+                    "Email : support@megashop.com",
+                    "Téléphone : +212 1 23 45 67 89",
+                    "SIRET : 123 456 789 00012"
+                ]
+            ]
+        ]
     ],
 ];
 
@@ -664,32 +842,32 @@ $faq =
 $navigation = [
     [
         'label' => 'Accueil',
-        'url' => 'index.php',
+        'url' => 'home.blade.php',
         'active' => false,
     ],
     [
         'label' => 'Informatique',
-        'url' => 'pages/informatique.php',
+        'url' => 'categories/informatique.blade.php',
         'active' => false,
     ],
     [
         'label' => 'Petit Électroménager',
-        'url' => 'pages/petit-electromenager.php',
+        'url' => 'categories/petit-electromenager.blade.php',
         'active' => false,
     ],
     [
         'label' => 'Grand Électroménager',
-        'url' => 'pages/grand-electromenager.php',
+        'url' => 'categories/grand-electromenager.blade.php',
         'active' => false,
     ],
     [
         'label' => 'CGV',
-        'url' => 'pages/cgv.php',
+        'url' => 'cgv.blade.php',
         'active' => false,
     ],
     [
         'label' => 'Contact',
-        'url' => 'pages/contact.php',
+        'url' => 'contact.blade.php',
         'active' => false,
     ],
 ];

@@ -12,6 +12,15 @@ class ProductController extends Controller
         return view('categories',compact('slug','categories','products'));
     }
     public function produit($id){
-        return view('produit',compact('id'));
+    include base_path('config/data.php');
+
+    $product = getProductById($products, $id);
+
+    if(!$product){
+        abort(404);
     }
+
+    return view('produit', compact('product'));
+
+}
 }

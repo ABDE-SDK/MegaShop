@@ -21,9 +21,8 @@ function getProductsByCategory($category)
  * @param  int  $id
  * @return array|null
  */
-function getProductById($id)
+function getProductById($products, $id)
 {
-    global $products;
     foreach ($products as $category => $items) {
         foreach ($items as $product) {
             if ($product['id'] == $id) {
@@ -67,7 +66,7 @@ function formatPrice($price)
  */
 function getCategoryUrl($slug)
 {
-    return 'pages/'.$slug.'.php';
+    return '/categories/'.$slug.'.php';
 }
 
 /**
@@ -114,7 +113,3 @@ function getFeaturedProducts($products)
 
     return array_slice($featured, 0, 3);
 }
-
-?>
-
-?>

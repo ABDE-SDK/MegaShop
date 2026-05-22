@@ -18,11 +18,15 @@ class ShopController extends Controller
 
     public function cgv()
     {
-        return view('cgv');
+        include base_path('config/data.php');
+        
+        return view('cgv', compact('cgv'));
     }
 
     public function contact()
-    {
-        return view('contact');
-    }
+{
+    include base_path('config/data.php');
+
+    return view('contact', compact('config', 'faq'));
+}
 }
